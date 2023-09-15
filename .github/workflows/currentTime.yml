@@ -1,0 +1,10 @@
+on: [push, pull_request]
+name: build
+jobs:
+  build:
+    name: Example
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get current date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d')"
