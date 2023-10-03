@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a979916c-8547-4d59-a84e-5e276332b5f8" name="Changes" comment="Add maven-shade-plugin&#10;Create 1.0-SNAPSHOT-shaded.jar">
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListSorting/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a979916c-8547-4d59-a84e-5e276332b5f8" name="Changes" comment="Add maven-shade-plugin&#10;Create 1.0-SNAPSHOT-shaded.jar" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -9,5 +9,8 @@
         <module name="ListSorting" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestProject" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
