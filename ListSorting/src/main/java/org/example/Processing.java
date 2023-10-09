@@ -21,3 +21,4 @@ public class Processing {
         return new QuickSort(list).sort();
     }
 }
+

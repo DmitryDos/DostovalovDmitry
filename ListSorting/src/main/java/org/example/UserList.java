@@ -22,5 +22,6 @@ public class UserList{
         for (int i = 0; i < length; i++) {
             System.out.print(list.get(i) + " ");
         }
+        System.out.println();
     }
 }
