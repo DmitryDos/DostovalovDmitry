@@ -1,16 +1,10 @@
 package org.example;
 
 public class QuickSort implements InterfaceSort{
-    private final UserList userList;
-
-    public QuickSort(UserList userList) {
-        this.userList = userList;
-    }
 
     @Override
-    public UserList sort() {
+    public UserList sort(UserList userList) throws Exception{
         includedSort(userList, 0, userList.length - 1);
-
         return userList;
     }
 

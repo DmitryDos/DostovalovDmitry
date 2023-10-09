@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4cb76e2-b38d-4ba4-bee6-d78de91fe8ca" name="Changes" comment="Create Sorting Class and add Junit Tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BubbleSortL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BubbleSortS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/QuickSortS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/UserList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/UserList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/InterfaceSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/InterfaceSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Processing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Processing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/QuickSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/UserList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/UserList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -46,6 +53,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -152,7 +162,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="e4cb76e2-b38d-4ba4-bee6-d78de91fe8ca" name="Changes" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1696088375382</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -179,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696251511996</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create Sorting Class and add Junit Tests">
+      <created>1696852953986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696852953986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,7 +230,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create ProjectBase for SortingMethods, set jacoco" />
     <MESSAGE value="Create Project for List sorting, set jacoco" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project for List sorting, set jacoco" />
+    <MESSAGE value="Create Sorting Class and add Junit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Sorting Class and add Junit Tests" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

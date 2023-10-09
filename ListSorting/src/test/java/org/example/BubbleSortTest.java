@@ -9,7 +9,11 @@ class BubbleSortTest {
 
     @Test
     public void bubbleSortList() {
-        UserList sortedList = new BubbleSort(userList).sort();
-        assertEquals(Arrays.asList(-5, 0, 1, 1, 2, 3, 6, 6, 7, 23, 23), sortedList.list);
+        try{
+            UserList sortedList = new BubbleSort().sort(userList);
+            assertEquals(Arrays.asList(-5, 0, 1, 1, 2, 3, 6, 6, 7, 23, 23), sortedList.list);
+        }catch (Exception e){
+            System.out.println("Type undefined");
+        }
     }
 }

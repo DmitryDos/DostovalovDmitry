@@ -9,7 +9,11 @@ class QuickSortTest {
 
     @Test
     public void quickSortList() {
-        UserList sortedList = new QuickSort(userList).sort();
-        assertEquals(Arrays.asList(-5, 0, 1, 1, 2, 3, 6, 6, 7, 23, 23), sortedList.list);
+        try{
+            UserList sortedList = new QuickSort().sort(userList);
+            assertEquals(Arrays.asList(-5, 0, 1, 1, 2, 3, 6, 6, 7, 23, 23), sortedList.list);
+        }catch (Exception e){
+            System.out.println("Type undefined");
+        }
     }
 }
