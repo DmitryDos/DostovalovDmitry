@@ -1,6 +1,9 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-ListSorting,org.example,UserList,0,43,0,2,0,11,0,6,0,5
+ListSorting,org.example,UserList,18,35,2,0,4,9,2,4,1,4
 ListSorting,org.example,Main,146,0,0,0,9,0,2,0,2,0
-ListSorting,org.example,BubbleSort,0,60,0,6,0,11,0,6,0,3
-ListSorting,org.example,QuickSort,0,104,0,6,0,22,0,7,0,4
-ListSorting,org.example,Processing,5,25,1,2,2,6,1,5,0,4
+ListSorting,org.example,BubbleSort,0,50,0,6,0,9,0,6,0,3
+ListSorting,org.example,BubbleSortS,47,12,7,1,8,3,5,2,1,2
+ListSorting,org.example,QuickSortS,5,104,1,7,1,21,1,7,0,4
+ListSorting,org.example,BubbleSortL,5,56,1,7,1,10,1,6,0,3
+ListSorting,org.example,QuickSort,0,98,0,6,0,20,0,7,0,4
+ListSorting,org.example,Processing,3,54,2,3,1,13,2,4,0,3
