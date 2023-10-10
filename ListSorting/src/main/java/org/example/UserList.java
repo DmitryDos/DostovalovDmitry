@@ -1,4 +1,5 @@
 package org.example;
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserList{
@@ -23,5 +24,9 @@ public class UserList{
             System.out.print(list.get(i) + " ");
         }
         System.out.println();
+    }
+    public UserList cloneList() {
+        List <Integer> listClone = new ArrayList<>(list);
+        return new UserList(listClone);
     }
 }
