@@ -8,7 +8,7 @@ public class QuickSort implements InterfaceSort{
         return userList;
     }
 
-    private void includedSort(UserList userList, int begin, int end){
+    public void includedSort(UserList userList, int begin, int end){
         if (begin < end) {
             int partitionIndex = partition(userList, begin, end);
 

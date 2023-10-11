@@ -7,7 +7,7 @@ public class BubbleSort implements InterfaceSort{
         return includedSort(userList.length, userList);
     }
 
-    private UserList includedSort(int length, UserList userList){
+    public UserList includedSort(int length, UserList userList){
         for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length; j++) {
                 if (userList.getItem(i) > userList.getItem(j)) {
