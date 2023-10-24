@@ -31,7 +31,7 @@ class MainTest {
       put("favouriteGame", "DiabloIV");
     }};
 
-    Message messageExtra = UserRepository.findByMsisdn("89227777777").sendMessage(Message.EnrichmentType.MSISDN);
+    Message messageExtra = UserRepository.findByMsisdn("89227777777").getMessage(Message.EnrichmentType.MSISDN);
     Message messageIncorrect = new Message(incorrectPD, Message.EnrichmentType.MSISDN);
     Message messageCorrect = new Message(correctPD, Message.EnrichmentType.MSISDN);
     Message messageSimple = new Message(simpleMessage, Message.EnrichmentType.MSISDN);
@@ -76,7 +76,6 @@ class MainTest {
         }
       });
     }));
-    System.out.println(enrichMessagesPool.size());
     executorService.shutdown();
     executorService.awaitTermination(3000, TimeUnit.SECONDS);
 
@@ -88,17 +87,9 @@ class MainTest {
       ConcurrentHashMap <String, String> contentGet = msgGet.getContent();
       ConcurrentHashMap <String, String> contentTest = msgTest.getContent();
 
-      System.out.println(i);
-
-      contentGet.forEach((key, value) ->{
-        System.out.println(key + " " + value);
-      });
-
       assertEquals(contentTest.size(), contentGet.size());
 
       contentTest.forEach((key, value) ->{
-        System.out.println(key + " " + value);
-
         assertTrue(contentGet.containsKey(key));
         assertEquals(value, contentGet.get(key));
       });

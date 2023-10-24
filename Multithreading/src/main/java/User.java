@@ -7,10 +7,7 @@ public class User {
     personalData.putAll(data);
   }
 
-  public void updateData(){
-
-  }
-  public Message sendMessage(Message.EnrichmentType enrichmentType){
+  public Message getMessage(Message.EnrichmentType enrichmentType){
     return new Message(personalData, enrichmentType);
   }
   public ConcurrentHashMap<String, String> getData(){
